@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E6D9D7"/>
+            <size android:height="50dp"/>
+            <corners android:radius="7dp"/>
+            <stroke android:color="#CC6464"
+                android:width="2dp"/>
+            <gradient android:startColor="#E6D9D7"
+                android:centerColor="#EDCCCC"
+                android:endColor="#B88080"
+                android:angle="90"/>
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/baseline_arrow_drop_down_24" android:gravity="right">
+    </item>
+
+</layer-list>

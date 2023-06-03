@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item android:title="Help"
+        android:icon="@drawable/baseline_help_24"
+        app:showAsAction="always"
+        android:id="@+id/help"/>
+    <item android:title="Credentials"
+        app:showAsAction="never"
+        android:id="@+id/credits"/>
+</menu>

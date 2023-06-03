@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">GoShort</string>
+
+    <string-array name="places">
+        <item>Choose Starting point</item>
+        <item>DAIICT Gate</item>
+        <item>Lotus Pond</item>
+        <item>Resource Center</item>
+        <item>Admin Block</item>
+        <item>Faculty Block</item>
+        <item>HoR Women</item>
+        <item>Cafeteria</item>
+        <item>E/F-Wing</item>
+        <item>New HoR Men</item>
+        <item>SAC-1</item>
+        <item>SAC-2</item>
+        <item>Basketball Court</item>
+        <item>OAT</item>
+        <item>CEP</item>
+        <item>Lecture Theatre</item>
+        <item>Laboratory</item>
+        <item>Visitor Parking</item>
+        <item>Campus Residence</item>
+        <item>Ground</item>
+        <item>A/D-Wing</item>
+        <item>G-Wing</item>
+    </string-array>
+    <string-array name="destPlaces">
+        <item>Choose Destination point</item>
+        <item>DAIICT Gate</item>
+        <item>Lotus Pond</item>
+        <item>Resource Center</item>
+        <item>Admin Block</item>
+        <item>Faculty Block</item>
+        <item>HoR Women</item>
+        <item>Cafeteria</item>
+        <item>E/F-Wing</item>
+        <item>New HoR Men</item>
+        <item>SAC-1</item>
+        <item>SAC-2</item>
+        <item>Basketball Court</item>
+        <item>OAT</item>
+        <item>CEP</item>
+        <item>Lecture Theatre</item>
+        <item>Laboratory</item>
+        <item>Visitor Parking</item>
+        <item>Campus Residence</item>
+        <item>Ground</item>
+        <item>A/D-Wing</item>
+        <item>G-Wing</item>
+    </string-array>
+
+    <string-array name="choice">
+        <item>Direct</item>
+        <item>Via</item>
+    </string-array>
+
+    <string name="start">Starting Point</string>
+    <string name="dest">Destination Point</string>
+    <string name="error">Error</string>
+    <string name="errorMessage">Invalid Selection!</string>
+    <string name="errorMessageSame">Starting Point and Destination are same!</string>
+    <string name="errorMessageSameVia">Starting Point or Consecutive destinations are same!</string>
+    <string name="dialogTxt1">Congratulations!s</string>
+    <string name="dialogTxt2">You have reached your Destination.S</string>
+    <string name="errorPositiveButton">
+        <b>Okay</b>
+    </string>
+    <string name="goBackHomeTitle">Back Home</string>
+    <string name="goBackHomeMsg">Are you sure want to go back home?</string>
+    <string name="warning">Warning</string>
+    <string name="warningMsg">Maximum 5 destinations are allowed at a time</string>
+    <string name="exitTitle">Exit</string>
+    <string name="exitMsg">Are you sure want to exit?</string>
+
+    <string name="appInfo">This app is a prototype of our project.\n
+        \nIt will help you to find out the shortest route to your destination.\n
+        \nIt restrains only to the route places and not the exact display of the direction to the destination.\n
+        \nTill now it is confined to the geography of the DAIICT Campus.\n
+        \nThere may be a chance of inaccuracy due to inaccurate or assumed distances.
+    </string>
+    <string name="appOneTimeDialogRegards">For further help, you can refer the Help section available at the top-right menu on toolbar.\n
+        \nHave a nice and safe journey.
+    </string>
+
+    <string name="appFeatures">The app includes the multi-destination feature, allowing user to effortlessly plan and navigate your journey by inputting multiple destinations with ease.\n
+        \nThere is a predefined set of frequently visited places for the ease of user.\n
+        \nUser is given choice to add and remove extra destinations.\n
+        \nMaximum 5 destinations are allowed to input at a time.\n
+        \nRecord of the whole path is maintained in case the user wants to review the path as and when required.\n
+    </string>
+    <string name="appInfoHelp">This app is a prototype of our project.\n
+        \nIt will help you to find out the shortest route to your destination.\n
+        \nIt restrains only to the route places and not the exact display of the direction to the destination.\n
+        \nTill now it is confined to the geography of the DAIICT Campus.\n
+        \nThere may be a chance of inaccuracy due to inaccurate or assumed distances.
+    </string>
+    <string name="finalRegardsHelp">Hope the above information will help you to navigate your way.\n
+        \nEnjoy and have a nice and safe journey.
+    </string>
+
+    <string name="creditLink1">Homepage background image(wallpaper) : \nhttps://wallpaperaccess.com/</string>
+    <string name="creditLink2">Animation : https://lottiefiles.com/ \n</string>
+    <string name="creditLink3">App Icon : https://www.freepik.com/free-vector/\n</string>
+
+</resources>

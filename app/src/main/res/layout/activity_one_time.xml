@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".OneTimeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideInset"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="5dp"
+        android:overScrollMode="ifContentScrolls">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="About APP"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"/>
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="@string/appInfoHelp"
+                android:textColor="#433303"
+                android:padding="5dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="@string/appOneTimeDialogRegards"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="I've read this"
+                android:textColor="#fff"
+                android:id="@+id/btnRead"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate>
+            <shape android:shape="rectangle">
+                <solid android:color="#015309"/>
+                <corners android:topLeftRadius="1500dp"
+                    android:bottomRightRadius="1500dp"/>
+            </shape>
+        </rotate>
+    </item>
+    <item android:drawable="@drawable/move_backward_icon" android:gravity="center"/>
+</layer-list>
